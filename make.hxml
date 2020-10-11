@@ -1,0 +1,15 @@
+-D js-es=6
+#-D GLEWB_DEBUG
+#-D GLEWB_RELOAD_DIR_LOCAL=../reload_dir
+-D ENABLE_SOUND
+-cp /DevProjects/Repos/glewb/src/common
+-cp /DevProjects/Repos/glewb/src/js
+-cp /DevProjects/Repos/aphic/src
+-lib pecan
+-lib howlerjs
+-lib hxsocketio
+-cp src
+-cp src-shade
+-main Main
+-js bin/game.js
+assets.hxml

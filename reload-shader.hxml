@@ -1,0 +1,11 @@
+-D js-es=6
+-D GLEWB_DEBUG
+-D GLEWB_RELOAD_DIR_LOCAL=../reload_dir
+-cp /DevProjects/Repos/glewb/src/common
+-cp /DevProjects/Repos/glewb/src/js
+-cp /DevProjects/Repos/aphic/src
+-lib hxsocketio
+-cp src-shade
+shade.Shader
+-js bin/dummy.js
+--no-output
